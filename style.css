@@ -1,0 +1,9 @@
+body {
+    background-color: #f0f0f0; /* Very light gray background */
+    font-family: Arial, sans-serif; /* Change the default font */
+    text-align: center;
+}
+
+h1 {
+    color: darkblue; /* Make the heading text dark blue */
+}
