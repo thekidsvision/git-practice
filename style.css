@@ -7,3 +7,34 @@ body {
 h1 {
     color: darkblue; /* Make the heading text dark blue */
 }
+/* Style for the Navigation Container */
+nav {
+    background-color: #333; /* Dark background for the bar */
+    padding: 10px 0;
+}
+
+/* Remove the bullet points */
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Make the list items horizontal (in-line) */
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Style the actual links */
+nav a {
+    color: white; /* White text for contrast */
+    text-decoration: none; /* Remove the underline */
+    font-weight: bold;
+}
+
+/* Optional: Change color when the mouse hovers over a link */
+nav a:hover {
+    color: #ffcc00; /* Bright yellow on hover */
+}
