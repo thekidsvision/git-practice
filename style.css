@@ -66,3 +66,19 @@ button[type="submit"] {
     border-radius: 4px;
     cursor: pointer; /* Changes mouse cursor to pointer */
 }
+
+/* Style to control the size of the main image */
+.main-image {
+    max-width: 90%; /* Ensures the image never exceeds 90% of the screen width */
+    height: auto;  /* Maintains the image's proportions (prevents stretching) */
+    margin: 20px auto; /* Adds vertical space and centers the image (because its parent container is text-align: center) */
+    display: block; /* Important for centering the image */
+}
+/* Style the Footer to stick to the bottom */
+footer {
+    background-color: #333; /* Same dark color as the navigation bar */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 50px; /* Add some space above the footer */
+}
