@@ -4,6 +4,13 @@ body {
     text-align: center;
 }
 
+body {
+    /* ... existing styles ... */
+    min-height: 100vh;      /* Make the body span the full screen height */
+    display: flex;          /* Use flexbox */
+    flex-direction: column; /* Stack children vertically */
+}
+
 h1 {
     color: darkblue; /* Make the heading text dark blue */
 }
@@ -81,4 +88,8 @@ footer {
     padding: 15px 0;
     text-align: center;
     margin-top: 50px; /* Add some space above the footer */
+}
+footer {
+    /* ... existing styles ... */
+    margin-top: auto; /* THIS pushes the footer down to the bottom */
 }
